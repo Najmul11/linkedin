@@ -17,3 +17,20 @@
  .link__text__container:hover{
     box-shadow:5px 5px 8px  lightgray , -5px -0.1px 8px lightgray;
 }
+
+/* ----------------
+explore topics area
+---------------- */
+.explore-area{
+    background-color: #f3f2f0;
+}
+.content-topics{
+    color: #616160;
+}
+
+/* -----------
+post job
+----------- */
+.post-job{
+    background-color: #f1ece5;
+}
