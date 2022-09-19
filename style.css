@@ -1,8 +1,8 @@
 /*--------------------
  welcome to your professional community area
  ------------------ */
-.heading__color{
-    color: rgba(143, 88 , 73 ,1);
+.heading__color,.slider-title{
+    color: #8f5849;
 }
 .link__text__container{
     border: 1px solid;
@@ -21,7 +21,7 @@
 /* ----------------
 explore topics area
 ---------------- */
-.explore-area{
+.explore-area,.slider-bg, .footer-bg{
     background-color: #f3f2f0;
 }
 .content-topics{
@@ -32,5 +32,43 @@ explore topics area
 post job
 ----------- */
 .post-job{
-    background-color: #f1ece5;
+    background-color:#f1ece5;
 }
+
+/* -------------
+slider area
+------------- */
+.sliderNextPrev-btn{
+    color: #212529b8;
+    outline: none;
+    border: none;
+}
+.sliderNextPrev-btn:hover{
+    background-color:rgba(211, 211, 211, 0.31) ;
+    color: rgba(0, 0, 0, 0.713);
+}
+h2{
+    font-weight: 385;
+}
+.slider-text{
+    line-height: 37px;
+}
+
+/* -----------
+footer
+------------ */
+.logo-size{
+    width: 120px;
+}
+footer p{
+    margin-bottom: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #666763;
+    font-weight: 500;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
