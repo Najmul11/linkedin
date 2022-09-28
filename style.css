@@ -19,13 +19,39 @@
 }
 
 /* ----------------
-explore topics area
+explore topics area/find topics area
 ---------------- */
 .explore-area,.slider-bg, .footer-bg{
     background-color: #f3f2f0;
 }
 .content-topics{
     color: #616160;
+}
+.buttons,.buttons__2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.724);
+    color: #292828d3;
+    background: transparent;
+}
+.buttons:hover{
+    background-color: rgba(211, 211, 211, 0.341);
+    color: #292828de;
+}
+.buttons__2:hover{
+    background-color: #f3f2f0;
+    color: #292828de;
+}
+.seeAllBtn,.postJobBtn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #3d85cc;
+    color: #167ce3d7;
+    background: transparent;
+}
+.seeAllBtn:hover{
+    background-color: #3d84cc47;
+    color: #094785f1;
 }
 
 /* -----------
@@ -34,11 +60,16 @@ post job
 .post-job{
     background-color:#f1ece5;
 }
+.postJobBtn:hover{
+    background-color: #3d84cc47;
+    color: #094785f1;
+}
+
 
 /* -------------
 slider area
 ------------- */
-.sliderNextPrev-btn{
+.sliderNextPrev-btn,topic-btn{
     color: #212529b8;
     outline: none;
     border: none;
@@ -52,6 +83,43 @@ h2{
 }
 .slider-text{
     line-height: 37px;
+}
+/* ------------
+connect people
+------------ */
+.topic-btn{
+    color:#343e34cf; 
+    font-weight: 480;
+    border: 1px solid rgba(0, 0, 0, 0.173);
+    background-color: rgba(0, 0,0, 0);
+    outline: 1px;
+}
+.topic-btn i{
+    color:#3f3b39c0; 
+}
+.topic-btn:hover{
+    background-color: #f3f2f0;
+    color:#2f2d2bd0; 
+}
+.select-topic{
+    position: absolute;
+    width: 52.35%;
+    height: 300px;
+    background: cyan;
+    margin-left: 0;
+    overflow: scroll;
+}
+.select-topic-links a{
+    text-decoration: none;
+    display: block;
+}
+.select-topic-links a:hover{
+    text-decoration: underline;
+}
+
+.text-deco:hover{
+    text-decoration: underline;
+    text-decoration-color:black;
 }
 
 /* -----------
